@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Please Enter User Email.", Toast.LENGTH_SHORT).show();
                 }
                 else{
-                    Toast.makeText(MainActivity.this, "Sucessfully Post.    ", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity.this, "Sucessfully Post.", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -164,9 +164,9 @@ public class MainActivity extends AppCompatActivity {
         oneButton = (Button) findViewById(R.id.btnOne);
         twoButton = (Button) findViewById(R.id.btnTwo);
         submitButton = (Button) findViewById(R.id.btnSubmit);
-
         oneBackButton = (Button) findViewById(R.id.btnBackOne);
         twoBackButton = (Button) findViewById(R.id.btnBackTwo);
+        //End
 
         //Here Declarte the EditText Value
         userNameEditText=(EditText)findViewById(R.id.etUserName);
