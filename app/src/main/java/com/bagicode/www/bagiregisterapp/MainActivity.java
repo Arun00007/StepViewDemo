@@ -174,5 +174,9 @@ public class MainActivity extends AppCompatActivity {
         emailEditText=(EditText)findViewById(R.id.etUserEmail);
         //End
 
+        //Here Declarte the EditText Value
+        userNameEditText=(EditText)findViewById(R.id.etUserName);
+        passwordEditText=(EditText)findViewById(R.id.etUserPassword);
+        //End
     }
 }
