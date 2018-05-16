@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
                 if(passwordEditText.getText().length()==0){
                     Toast.makeText(MainActivity.this, "Enter User Password.", Toast.LENGTH_SHORT).show();
 
+
+
                 }
                 else {
                     oneTextView.setBackground(getResources().getDrawable(R.drawable.rectangle_unselect));
