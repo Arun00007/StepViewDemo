@@ -85,6 +85,7 @@
                 android:layout_marginTop="5dp"
                 android:background="@drawable/border"
                 android:hint="Enter User Name"
+                android:singleLine="true"
                 android:padding="10dp" />
 
         </LinearLayout>
@@ -111,6 +112,7 @@
                 android:layout_marginTop="5dp"
                 android:background="@drawable/border"
                 android:hint="*****"
+                android:singleLine="true"
                 android:inputType="textPassword"
                 android:padding="10dp" />
 
@@ -137,6 +139,7 @@
                 android:layout_marginTop="5dp"
                 android:background="@drawable/border"
                 android:hint="arunchoudhary780@gmail.com"
+                android:singleLine="true"
                 android:padding="10dp" />
         </LinearLayout>
 
